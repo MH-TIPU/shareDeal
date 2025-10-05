@@ -98,7 +98,8 @@
         }
     </style>
     
-    <script src="https://cdn.tailwindcss.com"></script>
+    {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
+    <link rel="stylesheet" href="{{ asset('c_app.css') }}">
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1256.0" data-gr-ext-installed="" cz-shortcut-listen="true">
@@ -345,7 +346,7 @@
                                             <div class="bg-green-500 h-2.5 rounded-full" style="width: 50%"></div>
                                         </div>
                                         <div class="flex justify-between items-end">
-                                            <a href="#"
+                                            <a href="/details"
                                                 class="bg-green-700 text-white py-2 px-4 rounded-lg mt-4 font-semibold">Join
                                                 Now!</a>
                                             <div class="text-center mt-2 text-gray-600">
@@ -404,7 +405,7 @@
                                             <div class="bg-green-500 h-2.5 rounded-full" style="width: 37.5%"></div>
                                         </div>
                                         <div class="flex justify-between items-end">
-                                            <a href="#"
+                                            <a href="/details"
                                                 class="bg-green-700 text-white py-2 px-4 rounded-lg mt-4 font-semibold">Join
                                                 Now!</a>
                                             <div class="text-center mt-2 text-gray-600">
@@ -463,7 +464,7 @@
                                             <div class="bg-green-500 h-2.5 rounded-full" style="width: 33.3%"></div>
                                         </div>
                                         <div class="flex justify-between items-end">
-                                            <a href="#"
+                                            <a href="/details"
                                                 class="bg-green-700 text-white py-2 px-4 rounded-lg mt-4 font-semibold">Join
                                                 Now!</a>
                                             <div class="text-center mt-2 text-gray-600">
@@ -2263,6 +2264,9 @@
             </div>
         </div>
     </div>
+
+    <script src="{{ asset('c_app.js') }}"></script>
+
 </body>
 
 </html>
